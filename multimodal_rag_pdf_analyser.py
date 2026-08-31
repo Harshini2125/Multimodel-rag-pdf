@@ -393,10 +393,9 @@ def retrieve(query, k=10):
 
     results = []
 
-    for idx in indicesif idx < len(knowledge_base):
-
-            results.append(
-                knowledge_base[idx]
+    for idx in indices:
+    if idx < len(knowledge_base):
+        results.append(knowledge_base[idx])
             )
 
     return results
