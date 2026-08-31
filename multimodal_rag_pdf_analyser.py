@@ -396,7 +396,6 @@ def retrieve(query, k=10):
     for idx in indices:
     if idx < len(knowledge_base):
         results.append(knowledge_base[idx])
-            )
 
     return results
 
