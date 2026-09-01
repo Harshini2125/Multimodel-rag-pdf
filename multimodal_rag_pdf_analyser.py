@@ -38,7 +38,7 @@ from docling.document_converter import DocumentConverter
 # GOOGLE COLAB PDF UPLOAD
 # ============================================================
 
-PDF_PATH = "/content/Multimode-rag-pdf/samplepaper.pdf"
+PDF_PATH = "/content/Multimodel-rag-pdf/samplepaper.pdf"
 
 # ============================================================
 # GEMINI
