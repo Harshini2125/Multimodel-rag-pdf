@@ -11,7 +11,7 @@
 # -------------------------
 # API KEY
 # -------------------------
-GEMINI_API_KEY = "AQ.Ab8RN6JhKNZoWtYpRR49wQRxSq_r59UGj_6jo6synfOaABpLZA"
+GEMINI_API_KEY = "AQ.Ab8RN6LvojkitBwUVRS34P7rPcjgCGnZ7G-Re5kv2upQIODslg"
 
 # ============================================================
 # IMPORTS
