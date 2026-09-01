@@ -472,8 +472,7 @@ while True:
         "\nAsk Question (or 'exit'): "
     )
 
-    if question.lower() == "exit":
-        break
+
 
     try:
 
