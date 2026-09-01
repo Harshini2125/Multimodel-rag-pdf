@@ -38,12 +38,7 @@ from docling.document_converter import DocumentConverter
 # GOOGLE COLAB PDF UPLOAD
 # ============================================================
 
-from google.colab import files
-
-uploaded = files.upload()
-PDF_PATH = list(uploaded.keys())[0]
-
-print(f"PDF Loaded: {PDF_PATH}")
+PDF_PATH = "/content/Multimode-rag-pdf/samplepaper.pdf"
 
 # ============================================================
 # GEMINI
