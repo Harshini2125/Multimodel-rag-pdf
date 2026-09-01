@@ -368,7 +368,7 @@ def retrieve(query, k=10):
 
     direct = resolve_direct_reference(query)
 
-    if direct:
+    if direct is not None and len(direct) > 0:
         return direct
 
     query_embedding = embedding_model.encode(
@@ -376,7 +376,7 @@ def retrieve(query, k=10):
         normalize_embeddings=True
     )
 
-    query_embedding = np.array(
+    query_embedding = np.asarray(
         query_embedding,
         dtype=np.float32
     )
@@ -388,9 +388,13 @@ def retrieve(query, k=10):
 
     results = []
 
-    for idx in indices:
-        if idx < len(knowledge_base):
-            results.append(knowledge_base[idx])
+    for idx in indices[0]:
+
+        d idx < len(knowledge_base):
+
+            results.append(
+                knowledge_base[idx]
+            )
 
     return results
 
